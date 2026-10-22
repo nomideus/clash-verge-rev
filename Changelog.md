@@ -2,6 +2,8 @@
 
 ### 🐞 修复问题
 
+修复 HTTPS 证书校验仍信任已泄露证书密钥的问题
+
 修复 macOS 多显示器切换时托盘速率样式不同步
 修复 WebSocket 在 onConnected 初始化完成前被保存的问题，避免初始化失败后留下无监听且无法重试的无效连接。
 修复 Mihomo API 变更后 inline proxy-provider 被错误过滤的问题，解决节点显示 Unknown 及延迟测试失败的问题
